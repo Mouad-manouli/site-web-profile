@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#projects{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+[href="#logo"]{
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    font-weight: bold;
+    animation-name: logoa;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes logoa {
+    0%{
+        color: #68B984;
+    }
+    60%{
+        color: #E14D2A;
+    }
+    75%{
+        color: #E97777;
+    }
+    100%{
+        color: #4E6C50;
+    }
+}
+
+[href="#logo"] span{
+    font-size: 25px;
+    color: #FD841F;
+    text-decoration: none;
+    font-family:Comic Sans MS;
+    animation-name: logospan;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes logospan {
+    0%{
+        color: #3D5656;
+    }
+    60%{
+        color: #FED049;
+    }
+    75%{
+        color: #BCEAD5;
+    }
+    100%{
+        color: #82CD47;
+    }
+}
+
+.menu{
+    padding-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    padding-left: 45px;
+    font-size: large;
+    font-family: Comic Sans MS;
+    color: #1B2430;
+}
+.menu a:hover{
+    font-size: 20px;
+    color: #439A97;
+}
+.fin{
+    width: 1200px;
+    height: 1px;
+    background-color: black;
+    margin-top: 5px;
+    animation-name: finheader;
+    animation-duration: 2s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes finheader{
+    from{
+        transform: translatex(20px);
+    }
+    to{
+        transform: translatex(100px);
+    }
+}
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#card1 {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 30%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#card1:hover{
+    width: 510px;
+    height: 510px;
+    transition: 0.7s;
+}
+#card2 {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 30%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#card2:hover{
+    width: 510px;
+    height: 510px;
+    transition: 0.7s;
+}
+#card3 {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 30%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#card3:hover{
+    width: 510px;
+    height: 510px;
+    transition: 0.7s;
+}
+#card4 {
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 30%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#card4:hover{
+    width: 510px;
+    height: 510px;
+    transition: 0.7s;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #990000;
+}
+iframe{
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+h3{
+    font-family: Comic Sans MS;
+    color: #FED049;
+    margin-left: 20px;
+}
+[href="#"]{
+    position: relative;
+    left: 370px;
+    top: -22px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #850202;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+footer p{
+    font-size: small;
+    color: #fff;
+}

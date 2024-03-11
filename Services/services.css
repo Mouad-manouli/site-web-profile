@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#services{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+[href="#logo"]{
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    font-weight: bold;
+    animation-name: logoa;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes logoa {
+    0%{
+        color: #68B984;
+    }
+    60%{
+        color: #E14D2A;
+    }
+    75%{
+        color: #E97777;
+    }
+    100%{
+        color: #4E6C50;
+    }
+}
+
+[href="#logo"] span{
+    font-size: 25px;
+    color: #FD841F;
+    text-decoration: none;
+    font-family:Comic Sans MS;
+    animation-name: logospan;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes logospan {
+    0%{
+        color: #3D5656;
+    }
+    60%{
+        color: #FED049;
+    }
+    75%{
+        color: #BCEAD5;
+    }
+    100%{
+        color: #82CD47;
+    }
+}
+
+.menu{
+    padding-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    padding-left: 45px;
+    font-size: large;
+    font-family: Comic Sans MS;
+    color: #1B2430;
+}
+.menu a:hover{
+    font-size: 20px;
+    color: #439A97;
+}
+.fin{
+    width: 1200px;
+    height: 1px;
+    background-color: black;
+    margin-top: 5px;
+    animation-name: finheader;
+    animation-duration: 2s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes finheader{
+    from{
+        transform: translatex(20px);
+    }
+    to{
+        transform: translatex(100px);
+    }
+}
+#cards{
+    height: 870px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    color: #990000;
+    margin-top: 20px;
+    font-size: 50px;
+}
+#card1{
+    width: 700px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#card1 .div1{
+    width:240px ;
+    height: 250px;
+    background-color:#a1e0d2;
+    position: relative;
+    top: 120px;
+    left: 10px;
+}
+#card1 img{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: -200px;
+    left: 40px;
+}
+#card1 .div2{
+    width: 400px;
+    position: relative;
+    top: -400px;
+    left: 300px;
+    background-color: #fff;
+}
+.title{
+    font-family: Comic Sans MS;
+    color: #FED049;
+}
+#card1 .div3{
+    width: 300px;
+    height:200px ;
+    border: 1px solid brown;
+    position: relative;
+    top: -570px;
+    left: 250px;
+    z-index: -1;
+}
+#card2{
+    width: 550px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#card2 [src="div.jpg"]{
+    width: 350px;
+    height: 180px;
+    position: relative;
+    top: 160px;
+    left: 30px;
+}
+#card2 [src="Character design.jpg"]{
+    position: relative;
+    top: -150px;
+    left: 120px;
+}
+#card2 .div2{
+    background-color:#fff;
+    text-align: center;
+    position: relative;
+    top: -80px;
+
+}
+#card2 .div3{
+    width: 330px;
+    height:400px ;
+    border: 1px solid brown;
+    position: relative;
+    top: -450px;
+    left: 230px;
+    z-index: -1;
+}
+#card3{
+    width: 600px;
+    height: 350px;
+    margin-left: 20px;
+}
+#card3 [src="div1.jpg"]{
+    width: 360px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+}
+#card3 [src="Sketching.jpg" ]{
+    width:290px ;
+    height: 150px;
+    position: relative;
+    top: -185px;
+    left: 110px;
+}
+#card3 .div2{
+    text-align: center;
+    position: relative;
+    top: -150px;
+    background-color: #fff;
+}
+#card3 .div3{
+    width: 300px;
+    height:200px ;
+    border: 1px solid brown;
+    position: relative;
+    top: -320px;
+    left: 200px;
+    z-index: -1;
+    
+}
+#card4{
+    width: 700px;
+    height: 300px;
+    margin-left: 20px;
+}
+#card4 .div1{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(199, 94, 94);
+    margin-top: 50px;
+}
+#card4 img{
+    position: relative;
+    top: -170px;
+    left: 30px;
+}
+#card4 .div2{
+    width: 400px;
+    position: relative;
+    top: -300px;
+    left: 300px;
+    background-color: #fff;
+}
+#card4 .div3{
+    width: 330px;
+    height:150px ;
+    border: 1px solid brown;
+    position: relative;
+    top: -420px;
+    left: 250px;
+    z-index: -1;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #850202;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+footer p{
+    font-size: small;
+    color: #fff;
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#accuiel{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+[href="#logo"]{
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    font-weight: bold;
+    animation-name: logoa;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes logoa {
+    0%{
+        color: #68B984;
+    }
+    60%{
+        color: #E14D2A;
+    }
+    75%{
+        color: #E97777;
+    }
+    100%{
+        color: #4E6C50;
+    }
+}
+
+[href="#logo"] span{
+    font-size: 25px;
+    color: #FD841F;
+    text-decoration: none;
+    font-family:Comic Sans MS;
+    animation-name: logospan;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes logospan {
+    0%{
+        color: #3D5656;
+    }
+    60%{
+        color: #FED049;
+    }
+    75%{
+        color: #BCEAD5;
+    }
+    100%{
+        color: #82CD47;
+    }
+}
+
+.menu{
+    padding-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    padding-left: 45px;
+    font-size: large;
+    font-family: Comic Sans MS;
+    color: #1B2430;
+}
+.menu a:hover{
+    font-size: 20px;
+    color: #439A97;
+}
+.fin{
+    width: 1200px;
+    height: 1px;
+    background-color: black;
+    margin-top: 5px;
+    animation-name: finheader;
+    animation-duration: 2s;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes finheader{
+    from{
+        transform: translatex(20px);
+    }
+    to{
+        transform: translatex(100px);
+    }
+}
+#photo{
+    height: 625px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.informations{
+    margin-left: 500px;
+    position: relative;
+    top: -575px;
+    width: 800px;
+    text-align: center;
+    line-height: 30px;
+}
+.color{
+    color: #990000;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.color1{
+    color: #FF5B00;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 280px;
+}
+.color2{
+    color: #439A97;
+    margin-top: 50px;
+}
+.place{
+    text-align: left;
+    padding-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.work{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 15px;
+    color: brown;
+    position: relative;
+    left: -150px;
+}
+.work:hover{
+    background-color: rgb(163, 96, 96);
+    color: #fff;
+}
+.list1{
+    font-weight: bold;
+    font-size: x-large;
+}
+.informations ol{
+    list-style: none;
+    margin-top: 50px;
+}
+.icon{
+    display: flex;
+    position: relative;
+    left: 260px;
+    width: 300px;
+}
+.link{
+    text-decoration: none;
+    color: #439A97;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CBEDD5;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.4s;
+}
+.link:hover{
+    transform: rotate(45deg);
+}
+.link::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #FED049;
+    border-radius: 10px;
+    transition: opacity 0.2s;
+}
+.link:hover::before{
+    opacity: 0.4;
+}
+.link:nth-child(1)::before{
+    background: #c32aa3;
+}
+.link:nth-child(2)::before{
+    background: #1da1f2;
+}
+.link:nth-child(3)::before{
+    background:#1da1f2;
+}
+.link:nth-child(4)::before{
+    background: red;
+}
+.link:hover::before{
+    transform: translate(-4px,-4px);
+    filter: blur(10px);
+}
+.link i {
+    font-size: 1.7em;
+    transition: all 0.4s;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #850202;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+footer p{
+    font-size: small;
+    color: #fff;
+}
